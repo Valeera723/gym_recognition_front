@@ -1,0 +1,369 @@
+:root {
+  color: #0f172a;
+  font-family:
+    Inter, "Lexend", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(20, 184, 166, 0.16), transparent 28rem),
+    linear-gradient(135deg, #f8fafc 0%, #ecfeff 46%, #f7fee7 100%);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  border: 0;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: minmax(260px, 340px) minmax(390px, 1fr);
+  gap: 28px;
+  min-height: 100vh;
+  padding: 28px;
+}
+
+.workspace-panel {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  position: sticky;
+  top: 28px;
+}
+
+.brand-lockup {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.brand-mark {
+  align-items: center;
+  background: #0f172a;
+  border-radius: 8px;
+  color: #ffffff;
+  display: inline-flex;
+  font-weight: 800;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+}
+
+.brand-lockup h1 {
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+
+.brand-lockup p {
+  color: #64748b;
+  font-size: 13px;
+  margin: 3px 0 0;
+}
+
+.toolbar-grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.tool-button,
+.dock-button,
+.icon-button,
+.segmented {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 8px;
+  color: #0f172a;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 12px;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.tool-button:hover,
+.dock-button:hover,
+.icon-button:hover,
+.segmented:hover {
+  background: #ffffff;
+  border-color: rgba(15, 23, 42, 0.16);
+}
+
+.tool-button.is-active,
+.segmented.is-on,
+.dock-button.primary {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.tool-button span,
+.dock-button span {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.panel-row {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-button {
+  height: 42px;
+  padding: 0;
+  width: 42px;
+}
+
+.icon-button:disabled,
+.dock-button:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+.segmented {
+  min-width: 70px;
+}
+
+.page-select {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.page-select span {
+  color: #475569;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.page-select select {
+  appearance: none;
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 8px;
+  color: #0f172a;
+  min-height: 44px;
+  padding: 0 12px;
+  width: 100%;
+}
+
+.handoff-card,
+.api-card {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px;
+}
+
+.handoff-card strong {
+  line-height: 1.35;
+}
+
+.handoff-card span,
+.api-card code {
+  color: #64748b;
+  font-size: 12px;
+}
+
+.api-card-title {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  font-weight: 800;
+}
+
+.phone-stage {
+  align-items: start;
+  display: grid;
+  gap: 16px;
+  justify-content: center;
+}
+
+.phone-shell {
+  background: #020617;
+  border: 8px solid #020617;
+  border-radius: 34px;
+  box-shadow: 0 24px 80px rgba(15, 23, 42, 0.28);
+  max-width: min(390px, calc(100vw - 32px));
+  overflow: hidden;
+  width: 390px;
+}
+
+.phone-status-bar {
+  align-items: center;
+  background: #020617;
+  color: #f8fafc;
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  height: 28px;
+  justify-content: space-between;
+  padding: 0 22px;
+}
+
+.figma-page {
+  background: #ffffff;
+  max-height: calc(100vh - 80px);
+  overflow: auto;
+  position: relative;
+  width: 100%;
+}
+
+.figma-page-image {
+  display: block;
+  height: auto;
+  user-select: none;
+  width: 100%;
+}
+
+.hotspot {
+  background: rgba(20, 184, 166, 0);
+  border: 1px solid rgba(20, 184, 166, 0);
+  cursor: pointer;
+  position: absolute;
+}
+
+.hotspot.is-visible {
+  background: rgba(20, 184, 166, 0.12);
+  border-color: rgba(20, 184, 166, 0.55);
+}
+
+.hotspot:hover {
+  background: rgba(14, 165, 233, 0.18);
+  border-color: rgba(14, 165, 233, 0.72);
+}
+
+.recognition-dock {
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  width: min(390px, calc(100vw - 32px));
+}
+
+.dock-actions {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.dock-button {
+  min-width: 0;
+  padding-inline: 8px;
+}
+
+.dock-button input {
+  display: none;
+}
+
+.dock-status {
+  align-items: center;
+  color: #475569;
+  display: flex;
+  font-size: 13px;
+  gap: 8px;
+  min-height: 20px;
+}
+
+.camera-preview {
+  background: #020617;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.camera-preview video {
+  aspect-ratio: 390 / 520;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.camera-actions {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 8px;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 860px) {
+  .app-shell {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .workspace-panel {
+    position: static;
+  }
+
+  .toolbar-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 460px) {
+  .app-shell {
+    padding: 0;
+  }
+
+  .workspace-panel {
+    padding: 14px;
+  }
+
+  .phone-shell {
+    border: 0;
+    border-radius: 0;
+    max-width: 100vw;
+    width: 100vw;
+  }
+
+  .phone-status-bar {
+    display: none;
+  }
+
+  .figma-page {
+    max-height: none;
+  }
+
+  .recognition-dock {
+    border-radius: 0;
+    width: 100vw;
+  }
+}

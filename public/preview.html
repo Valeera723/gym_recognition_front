@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-FIT Preview</title>
+    <link rel="stylesheet" href="/preview.css" />
+  </head>
+  <body>
+    <main class="preview-shell">
+      <aside class="preview-panel">
+        <div class="brand">
+          <span>AI</span>
+          <div>
+            <h1>AI-FIT</h1>
+            <p>Prototype preview</p>
+          </div>
+        </div>
+        <div class="quick" id="quick"></div>
+        <div class="actions">
+          <button id="back">返回</button>
+          <button id="home">启动</button>
+          <button id="hotspots">热区</button>
+        </div>
+        <select id="pageSelect"></select>
+        <div class="meta" id="meta"></div>
+      </aside>
+      <section class="stage">
+        <div class="phone">
+          <div class="bar"><span>9:41</span><span>5G</span></div>
+          <div class="screen" id="screen"></div>
+        </div>
+        <div class="ai-panel" id="aiPanel">
+          <button id="cameraBtn">摄像头</button>
+          <label>图片<input hidden id="imageInput" type="file" accept="image/*" /></label>
+          <button id="sessionBtn">实时纠偏</button>
+          <label>视频<input hidden id="videoInput" type="file" accept="video/*" /></label>
+          <span id="aiStatus">AI ready</span>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/preview-app.js"></script>
+  </body>
+</html>

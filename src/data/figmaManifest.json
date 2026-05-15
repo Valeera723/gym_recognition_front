@@ -1,0 +1,2071 @@
+{
+  "docName": "AI-FIT",
+  "title": "AI-FIT",
+  "totalImages": 61,
+  "defaultPageIndex": 15,
+  "generatedFrom": "D:/gym_equipment recognition/data/story.js",
+  "figma": {
+    "prototype": "https://www.figma.com/proto/X9ZgG2nXPGt7alEb1Bucu7/AI-FIT?node-id=102-4626&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+    "design": "https://www.figma.com/design/X9ZgG2nXPGt7alEb1Bucu7/AI-FIT?node-id=0-1&t=i2ubKgCBnKxVWOAs-1",
+    "devMode": "https://www.figma.com/design/X9ZgG2nXPGt7alEb1Bucu7/AI-FIT?node-id=0-1&m=dev&t=i2ubKgCBnKxVWOAs-1"
+  },
+  "pages": [
+    {
+      "id": "96:3054",
+      "index": 0,
+      "title": "2. TDEE 能量仪表盘 (导航栏优化版)",
+      "image": "2.-tdee-能量仪表盘-(导航栏优化版).png",
+      "width": 390,
+      "height": 1333,
+      "links": [
+        {
+          "name": "Header - TopAppBar",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 73
+          },
+          "targetIndex": 1,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 326,
+            "y": 16,
+            "width": 40,
+            "height": 40
+          },
+          "targetIndex": 1,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Main",
+          "rect": {
+            "x": 0,
+            "y": 73,
+            "width": 390,
+            "height": 1185
+          },
+          "targetIndex": 2,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Active Navigation (Next/Continue):margin",
+          "rect": {
+            "x": 118,
+            "y": 373,
+            "width": 154,
+            "height": 57
+          },
+          "targetIndex": 4,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 30,
+            "y": 389,
+            "width": 126,
+            "height": 52
+          },
+          "targetIndex": 4,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Link - Plan",
+          "rect": {
+            "x": 31.43994140625,
+            "y": 1268.89990234375,
+            "width": 57,
+            "height": 52
+          },
+          "targetIndex": 13,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Link - Inactive Tab: Workout",
+          "rect": {
+            "x": 119.33984375,
+            "y": 1267,
+            "width": 66.13999938964844,
+            "height": 55.79999923706055
+          },
+          "targetIndex": 8,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "x": 316.27978515625,
+            "y": 1294.89990234375,
+            "width": 31.799999237060547,
+            "height": 20
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "96:2946",
+      "index": 1,
+      "title": "基础信息收集 - 顶部栏更新版",
+      "image": "基础信息收集-顶部栏更新版.png",
+      "width": 390,
+      "height": 915,
+      "links": [
+        {
+          "name": "Container",
+          "rect": {
+            "x": 330,
+            "y": 12,
+            "width": 40,
+            "height": 40
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 24,
+            "y": 835,
+            "width": 342,
+            "height": 56
+          },
+          "targetIndex": 0,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "96:1896",
+      "index": 2,
+      "title": "智能排餐对话 (顶部栏规范版)",
+      "image": "智能排餐对话-(顶部栏规范版).png",
+      "width": 390,
+      "height": 1479,
+      "links": [
+        {
+          "name": "Container",
+          "rect": {
+            "x": 310,
+            "y": 24,
+            "width": 40,
+            "height": 40
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Main Content Canvas",
+          "rect": {
+            "x": 0,
+            "y": 89,
+            "width": 390,
+            "height": 1309
+          },
+          "targetIndex": 0,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "96:2029",
+      "index": 3,
+      "title": "手动组合录入 - 导航栏优化版",
+      "image": "手动组合录入-导航栏优化版.png",
+      "width": 390,
+      "height": 1144,
+      "links": [
+        {
+          "name": "Main",
+          "rect": {
+            "x": 0,
+            "y": 72,
+            "width": 390,
+            "height": 1067
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "x": 345.60009765625,
+            "y": 260,
+            "width": 7.400000095367432,
+            "height": 12
+          },
+          "targetIndex": 4,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "96:2178",
+      "index": 4,
+      "title": "5. AI 拍照识别录入 (浅色版)",
+      "image": "5.-ai-拍照识别录入-(浅色版).png",
+      "width": 390,
+      "height": 884,
+      "links": []
+    },
+    {
+      "id": "96:2256",
+      "index": 5,
+      "title": "我的 - 导航栏优化版",
+      "image": "我的-导航栏优化版.png",
+      "width": 390,
+      "height": 1041,
+      "links": [
+        {
+          "name": "Main",
+          "rect": {
+            "x": 0,
+            "y": 90,
+            "width": 390,
+            "height": 860
+          },
+          "targetIndex": 3,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "x": 346.60009765625,
+            "y": 454,
+            "width": 7.400000095367432,
+            "height": 12
+          },
+          "targetIndex": 7,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Overlay",
+          "rect": {
+            "x": 36,
+            "y": 528,
+            "width": 40,
+            "height": 40
+          },
+          "targetIndex": 8,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Background+Shadow",
+          "rect": {
+            "x": 201,
+            "y": 512,
+            "width": 169,
+            "height": 128
+          },
+          "targetIndex": 6,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "x": 346.60009765625,
+            "y": 692,
+            "width": 7.400000095367432,
+            "height": 12
+          },
+          "targetIndex": 11,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "x": 346.60009765625,
+            "y": 745,
+            "width": 7.400000095367432,
+            "height": 12
+          },
+          "targetIndex": 9,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "x": 346.60009765625,
+            "y": 798,
+            "width": 7.400000095367432,
+            "height": 12
+          },
+          "targetIndex": 10,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Logout Button",
+          "rect": {
+            "x": 20,
+            "y": 862,
+            "width": 350,
+            "height": 56
+          },
+          "targetIndex": 15,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Link - Plan",
+          "rect": {
+            "x": 31.43994140625,
+            "y": 977.89990234375,
+            "width": 57,
+            "height": 52
+          },
+          "targetIndex": 13,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Link - Inactive Tab: Workout",
+          "rect": {
+            "x": 119.340087890625,
+            "y": 976,
+            "width": 66.13999938964844,
+            "height": 55.79999923706055
+          },
+          "targetIndex": 8,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Link - Inactive Tab: Analysis",
+          "rect": {
+            "x": 216.3798828125,
+            "y": 977.39990234375,
+            "width": 64.52999877929688,
+            "height": 53
+          },
+          "targetIndex": 0,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "96:3225",
+      "index": 6,
+      "title": "Main Content Canvas",
+      "image": "main-content-canvas.png",
+      "width": 390,
+      "height": 3079,
+      "links": []
+    },
+    {
+      "id": "96:2366",
+      "index": 7,
+      "title": "数据追踪 - 体型数据 (顶部栏统一版)",
+      "image": "数据追踪-体型数据-(顶部栏统一版).png",
+      "width": 390,
+      "height": 1135,
+      "links": [
+        {
+          "name": "Icon",
+          "rect": {
+            "x": 24,
+            "y": 18,
+            "width": 16,
+            "height": 16
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "96:2512",
+      "index": 8,
+      "title": "社区 - 寻找搭子 (顶部栏统一版)",
+      "image": "社区-寻找搭子-(顶部栏统一版).png",
+      "width": 390,
+      "height": 1454.300048828125,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 12,
+            "y": 12,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Link - Plan",
+          "rect": {
+            "x": 31.43994140625,
+            "y": 1392.39990234375,
+            "width": 57,
+            "height": 52
+          },
+          "targetIndex": 13,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Link - Inactive Tab: Analysis",
+          "rect": {
+            "x": 207.239990234375,
+            "y": 1391.89990234375,
+            "width": 64.52999877929688,
+            "height": 53
+          },
+          "targetIndex": 0,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Link - Inactive Tab: Profile",
+          "rect": {
+            "x": 302.6700439453125,
+            "y": 1392.39990234375,
+            "width": 55.79999923706055,
+            "height": 52
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "96:2667",
+      "index": 9,
+      "title": "关于我们 - 顶部栏优化版",
+      "image": "关于我们-顶部栏优化版.png",
+      "width": 390,
+      "height": 1042,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "96:2748",
+      "index": 10,
+      "title": "推荐给好友 - 顶部栏精简版",
+      "image": "推荐给好友-顶部栏精简版.png",
+      "width": 390,
+      "height": 1293,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 15.5,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "96:2845",
+      "index": 11,
+      "title": "帮助中心 - 顶部栏精简版",
+      "image": "帮助中心-顶部栏精简版.png",
+      "width": 390,
+      "height": 1163,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 16,
+            "y": 11.5,
+            "width": 40,
+            "height": 32
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1706",
+      "index": 12,
+      "title": "拍照识别器械页",
+      "image": "拍照识别器械页.png",
+      "width": 390,
+      "height": 898,
+      "links": [
+        {
+          "name": "Container",
+          "rect": {
+            "x": 0,
+            "y": 802,
+            "width": 390,
+            "height": 96
+          },
+          "targetIndex": 14,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2",
+      "index": 13,
+      "title": "02. 我的计划首页",
+      "image": "02.-我的计划首页.png",
+      "width": 390,
+      "height": 1077,
+      "links": [
+        {
+          "name": "Link - Inactive Tab: Workout",
+          "rect": {
+            "x": 107.89999389648438,
+            "y": 1013.0999755859375,
+            "width": 66.13999938964844,
+            "height": 55.79999923706055
+          },
+          "targetIndex": 8,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Link - Inactive Tab: Analysis",
+          "rect": {
+            "x": 204.94000244140625,
+            "y": 1014.5,
+            "width": 64.52999877929688,
+            "height": 53
+          },
+          "targetIndex": 0,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Link - Inactive Tab: Profile",
+          "rect": {
+            "x": 300.3699951171875,
+            "y": 1015,
+            "width": 55.79999923706055,
+            "height": 52
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 337.97998046875,
+            "y": 15.5,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 266.25665283203125,
+            "y": 88,
+            "width": 103.74333190917969,
+            "height": 33.5
+          },
+          "targetIndex": 18,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 21,
+            "y": 610.5,
+            "width": 348,
+            "height": 48
+          },
+          "targetIndex": 12,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1755",
+      "index": 14,
+      "title": "器械识别结果页",
+      "image": "器械识别结果页.png",
+      "width": 390,
+      "height": 1231,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 440,
+            "width": 350,
+            "height": 50
+          },
+          "targetIndex": 12,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - View Exercises Action (Primary)",
+          "rect": {
+            "x": 20,
+            "y": 796,
+            "width": 350,
+            "height": 104
+          },
+          "targetIndex": 21,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "102:4626",
+      "index": 15,
+      "title": "1. 启动欢迎页",
+      "image": "1.-启动欢迎页.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 16,
+            "y": 720,
+            "width": 358,
+            "height": 52
+          },
+          "targetIndex": 13,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "104:90",
+      "index": 16,
+      "title": "基础信息集成页",
+      "image": "基础信息集成页.png",
+      "width": 390,
+      "height": 1147,
+      "links": [
+        {
+          "name": "Container",
+          "rect": {
+            "x": 32,
+            "y": 22,
+            "width": 16,
+            "height": 16
+          },
+          "targetIndex": 15,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Inactive Tab",
+          "rect": {
+            "x": 37.589996337890625,
+            "y": 1059,
+            "width": 87,
+            "height": 56
+          },
+          "targetIndex": 15,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Active Navigation (Next/Continue):margin",
+          "rect": {
+            "x": 151.780029296875,
+            "y": 1063,
+            "width": 161,
+            "height": 48
+          },
+          "targetIndex": 20,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:743",
+      "index": 17,
+      "title": "问卷开始页",
+      "image": "问卷开始页.png",
+      "width": 392,
+      "height": 1050,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 961,
+            "width": 352,
+            "height": 56
+          },
+          "targetIndex": 19,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:120",
+      "index": 18,
+      "title": "03. 新建计划首页",
+      "image": "03.-新建计划首页.png",
+      "width": 390,
+      "height": 1029,
+      "links": [
+        {
+          "name": "Button - Leading Icon",
+          "rect": {
+            "x": 20,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 13,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 957,
+            "width": 350,
+            "height": 56
+          },
+          "targetIndex": 17,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Custom Build (Unselected)",
+          "rect": {
+            "x": 20,
+            "y": 787,
+            "width": 350,
+            "height": 114
+          },
+          "targetIndex": 22,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:632",
+      "index": 19,
+      "title": "第 1 题：训练目标 (标准缩放版)",
+      "image": "第-1-题：训练目标-(标准缩放版).png",
+      "width": 390,
+      "height": 1128,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 32,
+            "y": 1029,
+            "width": 56,
+            "height": 56
+          },
+          "targetIndex": 17,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 104,
+            "y": 1029,
+            "width": 254,
+            "height": 56
+          },
+          "targetIndex": 25,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "104:285",
+      "index": 20,
+      "title": "工作状态采集页",
+      "image": "工作状态采集页.png",
+      "width": 390,
+      "height": 1652,
+      "links": [
+        {
+          "name": "Button:css-transform",
+          "rect": {
+            "x": 33,
+            "y": 16,
+            "width": 30.399999618530273,
+            "height": 40
+          },
+          "targetIndex": 15,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Inactive Tab",
+          "rect": {
+            "x": 37.59002685546875,
+            "y": 1564,
+            "width": 87,
+            "height": 56
+          },
+          "targetIndex": 16,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Active Navigation (Next/Continue):margin",
+          "rect": {
+            "x": 151.780029296875,
+            "y": 1568,
+            "width": 161,
+            "height": 48
+          },
+          "targetIndex": 26,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1937",
+      "index": 21,
+      "title": "支持动作列表页",
+      "image": "支持动作列表页.png",
+      "width": 390,
+      "height": 1743,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 37,
+            "y": 459,
+            "width": 153,
+            "height": 42
+          },
+          "targetIndex": 24,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 202,
+            "y": 459,
+            "width": 151,
+            "height": 42
+          },
+          "targetIndex": 30,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:225",
+      "index": 22,
+      "title": "04. 训练结构设置页",
+      "image": "04.-训练结构设置页.png",
+      "width": 390,
+      "height": 1052,
+      "links": [
+        {
+          "name": "Button - Leading Icon",
+          "rect": {
+            "x": 20,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 18,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 988,
+            "width": 350,
+            "height": 48
+          },
+          "targetIndex": 27,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Article - Day 1: Monday",
+          "rect": {
+            "x": 20,
+            "y": 208.33334350585938,
+            "width": 350,
+            "height": 116
+          },
+          "targetIndex": 27,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "102:4538",
+      "index": 23,
+      "title": "7. 协议确认弹窗",
+      "image": "7.-协议确认弹窗.png",
+      "width": 390,
+      "height": 884,
+      "links": []
+    },
+    {
+      "id": "1:1843",
+      "index": 24,
+      "title": "动作详情页-正握宽距高位下拉",
+      "image": "动作详情页-正握宽距高位下拉.png",
+      "width": 390,
+      "height": 1552,
+      "links": [
+        {
+          "name": "Button - Go back",
+          "rect": {
+            "x": 20,
+            "y": 16,
+            "width": 40,
+            "height": 40
+          },
+          "targetIndex": 21,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 1480,
+            "width": 350,
+            "height": 60
+          },
+          "targetIndex": 30,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "60:571",
+      "index": 25,
+      "title": "第 2 题：训练地点 (标准缩放版)",
+      "image": "第-2-题：训练地点-(标准缩放版).png",
+      "width": 390,
+      "height": 1262.5,
+      "links": [
+        {
+          "name": "Button - Previous Step (Inactive visual style)",
+          "rect": {
+            "x": 32,
+            "y": 1172,
+            "width": 115.4000015258789,
+            "height": 40
+          },
+          "targetIndex": 19,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Container",
+          "rect": {
+            "x": 147.4000244140625,
+            "y": 1164,
+            "width": 210.60000610351562,
+            "height": 56
+          },
+          "targetIndex": 29,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "104:509",
+      "index": 26,
+      "title": "训练基础采集页",
+      "image": "训练基础采集页.png",
+      "width": 390,
+      "height": 1238,
+      "links": [
+        {
+          "name": "Button:css-transform",
+          "rect": {
+            "x": 33,
+            "y": 16,
+            "width": 30.399999618530273,
+            "height": 40
+          },
+          "targetIndex": 15,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Inactive Tab",
+          "rect": {
+            "x": 37.5899658203125,
+            "y": 1150,
+            "width": 87,
+            "height": 56
+          },
+          "targetIndex": 20,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Active Navigation (Next/Continue)",
+          "rect": {
+            "x": 151.780029296875,
+            "y": 1154,
+            "width": 145.33334350585938,
+            "height": 40
+          },
+          "targetIndex": 31,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:326",
+      "index": 27,
+      "title": "05. 添加动作页面",
+      "image": "05.-添加动作页面.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 223.92333984375,
+            "y": 819,
+            "width": 146.07666015625,
+            "height": 49
+          },
+          "targetIndex": 32,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 223.92333984375,
+            "y": 819,
+            "width": 146.07666015625,
+            "height": 49
+          },
+          "targetIndex": 32,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Leading Icon",
+          "rect": {
+            "x": 20,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 22,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "102:4648",
+      "index": 28,
+      "title": "3. 输入验证码",
+      "image": "3.-输入验证码.png",
+      "width": 390,
+      "height": 896.5032958984375,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 16,
+            "y": 825,
+            "width": 358,
+            "height": 48
+          },
+          "targetIndex": 33,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:838",
+      "index": 29,
+      "title": "第 3 题：每周频率",
+      "image": "第-3-题：每周频率.png",
+      "width": 390,
+      "height": 889.5,
+      "links": [
+        {
+          "name": "Container",
+          "rect": {
+            "x": 71.4000244140625,
+            "y": 841,
+            "width": 36,
+            "height": 16
+          },
+          "targetIndex": 25,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Next Step (Active visual style as primary action)",
+          "rect": {
+            "x": 139.4000244140625,
+            "y": 824,
+            "width": 226.60000610351562,
+            "height": 50
+          },
+          "targetIndex": 35,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2089",
+      "index": 30,
+      "title": "05.实时纠正-正在识别中",
+      "image": "05.实时纠正-正在识别中.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 18,
+            "width": 40,
+            "height": 40
+          },
+          "targetIndex": 24,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 150,
+            "y": 796,
+            "width": 216,
+            "height": 56
+          },
+          "targetIndex": 37,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "104:2",
+      "index": 31,
+      "title": "训练目标采集页",
+      "image": "训练目标采集页.png",
+      "width": 390,
+      "height": 2052,
+      "links": [
+        {
+          "name": "Button:css-transform",
+          "rect": {
+            "x": 33,
+            "y": 16,
+            "width": 30.399999618530273,
+            "height": 40
+          },
+          "targetIndex": 15,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Inactive Tab",
+          "rect": {
+            "x": 37.5899658203125,
+            "y": 1966,
+            "width": 87,
+            "height": 56
+          },
+          "targetIndex": 26,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Active Navigation (Next/Continue):margin",
+          "rect": {
+            "x": 151.780029296875,
+            "y": 1970,
+            "width": 161,
+            "height": 48
+          },
+          "targetIndex": 34,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:481",
+      "index": 32,
+      "title": "06. 编辑训练日页面",
+      "image": "06.-编辑训练日页面.png",
+      "width": 390,
+      "height": 1073,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 16,
+            "y": 993,
+            "width": 358,
+            "height": 64
+          },
+          "targetIndex": 22,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Leading Icon",
+          "rect": {
+            "x": 20,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 27,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "102:4680",
+      "index": 33,
+      "title": "4. 密码登录",
+      "image": "4.-密码登录.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Forgot Password Link",
+          "rect": {
+            "x": 16,
+            "y": 292,
+            "width": 358,
+            "height": 18
+          },
+          "targetIndex": 38,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Primary Login Button",
+          "rect": {
+            "x": 16,
+            "y": 792,
+            "width": 358,
+            "height": 52
+          },
+          "targetIndex": 44,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "106:700",
+      "index": 34,
+      "title": "方案生成过渡页",
+      "image": "方案生成过渡页.png",
+      "width": 390,
+      "height": 961,
+      "links": [
+        {
+          "name": "Button:css-transform",
+          "rect": {
+            "x": 25,
+            "y": 16,
+            "width": 30.399999618530273,
+            "height": 40
+          },
+          "targetIndex": 15,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Inactive Tab",
+          "rect": {
+            "x": 45.590087890625,
+            "y": 873,
+            "width": 87,
+            "height": 56
+          },
+          "targetIndex": 31,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Active Navigation (Next/Continue)",
+          "rect": {
+            "x": 159.780029296875,
+            "y": 877,
+            "width": 145.33334350585938,
+            "height": 40
+          },
+          "targetIndex": 42,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:990",
+      "index": 35,
+      "title": "第 4 题：单次时长",
+      "image": "第-4-题：单次时长.png",
+      "width": 390,
+      "height": 884,
+      "links": []
+    },
+    {
+      "id": "1:3072",
+      "index": 36,
+      "title": "Frame",
+      "image": "frame.png",
+      "width": 390,
+      "height": 83,
+      "links": [
+        {
+          "name": "Button - Previous Step (Inactive visual style)",
+          "rect": {
+            "x": 24,
+            "y": 22,
+            "width": 115.4000015258789,
+            "height": 40
+          },
+          "targetIndex": 29,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Next Step (Active visual style as primary action)",
+          "rect": {
+            "x": 139.39990234375,
+            "y": 17,
+            "width": 226.60000610351562,
+            "height": 50
+          },
+          "targetIndex": 39,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2292",
+      "index": 37,
+      "title": "09.本组反馈-高位下拉",
+      "image": "09.本组反馈-高位下拉.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Button:margin",
+          "rect": {
+            "x": 20,
+            "y": 12,
+            "width": 28,
+            "height": 44
+          },
+          "targetIndex": 30,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 836,
+            "width": 350,
+            "height": 48
+          },
+          "targetIndex": 43,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "102:4788",
+      "index": 38,
+      "title": "6. 重置密码步骤",
+      "image": "6.-重置密码步骤.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Container",
+          "rect": {
+            "x": 33,
+            "y": 463,
+            "width": 324,
+            "height": 48
+          },
+          "targetIndex": 28,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 16,
+            "y": 816,
+            "width": 358,
+            "height": 52
+          },
+          "targetIndex": 44,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1062",
+      "index": 39,
+      "title": "第 5 题：俯卧撑评估",
+      "image": "第-5-题：俯卧撑评估.png",
+      "width": 390,
+      "height": 1040.5,
+      "links": []
+    },
+    {
+      "id": "1:3085",
+      "index": 40,
+      "title": "Frame(1)",
+      "image": "frame(1).png",
+      "width": 390,
+      "height": 83,
+      "links": [
+        {
+          "name": "Button - Previous Step (Inactive visual style)",
+          "rect": {
+            "x": 24,
+            "y": 22,
+            "width": 115.4000015258789,
+            "height": 40
+          },
+          "targetIndex": 35,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Next Step (Active visual style as primary action)",
+          "rect": {
+            "x": 139.39990234375,
+            "y": 17,
+            "width": 226.60000610351562,
+            "height": 50
+          },
+          "targetIndex": 45,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "106:608",
+      "index": 41,
+      "title": "AI 健身对话页",
+      "image": "ai-健身对话页.png",
+      "width": 390,
+      "height": 1023,
+      "links": [
+        {
+          "name": "Button:css-transform",
+          "rect": {
+            "x": 33,
+            "y": 16,
+            "width": 30.399999618530273,
+            "height": 43
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "107:897",
+      "index": 42,
+      "title": "Button",
+      "image": "button.png",
+      "width": 390,
+      "height": 57,
+      "links": [
+        {
+          "name": "Container",
+          "rect": {
+            "x": 265,
+            "y": 18.5,
+            "width": 16,
+            "height": 20
+          },
+          "targetIndex": 5,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2365",
+      "index": 43,
+      "title": "11.动作学习页-坐姿划船",
+      "image": "11.动作学习页-坐姿划船.png",
+      "width": 390,
+      "height": 1351,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 14,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 37,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 1247,
+            "width": 350,
+            "height": 72
+          },
+          "targetIndex": 47,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "102:4875",
+      "index": 44,
+      "title": "8. 登录成功过渡",
+      "image": "8.-登录成功过渡.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 16,
+            "y": 800,
+            "width": 358,
+            "height": 52
+          },
+          "targetIndex": 16,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1183",
+      "index": 45,
+      "title": "第 6 题：深蹲评估 (风格统一版)",
+      "image": "第-6-题：深蹲评估-(风格统一版).png",
+      "width": 390,
+      "height": 1130,
+      "links": [
+        {
+          "name": "Button - Previous Step (Inactive visual style)",
+          "rect": {
+            "x": 24,
+            "y": 1072.5,
+            "width": 115.4000015258789,
+            "height": 40
+          },
+          "targetIndex": 39,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2196",
+      "index": 46,
+      "title": "12.实时纠正-坐姿划船",
+      "image": "12.实时纠正-坐姿划船.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 24,
+            "width": 40,
+            "height": 40
+          },
+          "targetIndex": 43,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2268",
+      "index": 47,
+      "title": "Bottom Control Panel (Glassmorphism)",
+      "image": "bottom-control-panel-(glassmorphism).png",
+      "width": 390,
+      "height": 189,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 150,
+            "y": 101,
+            "width": 216,
+            "height": 56
+          },
+          "targetIndex": 49,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1120",
+      "index": 48,
+      "title": "第 7 题：平板支撑评估 (风格统一版)",
+      "image": "第-7-题：平板支撑评估-(风格统一版).png",
+      "width": 390,
+      "height": 1090,
+      "links": [
+        {
+          "name": "Button - Previous Step (Inactive visual style)",
+          "rect": {
+            "x": 24,
+            "y": 989,
+            "width": 115.4000015258789,
+            "height": 40
+          },
+          "targetIndex": 45,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2678",
+      "index": 49,
+      "title": "13.本组反馈-坐姿划船",
+      "image": "13.本组反馈-坐姿划船.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Button:margin",
+          "rect": {
+            "x": 20,
+            "y": 12,
+            "width": 28,
+            "height": 44
+          },
+          "targetIndex": 46,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Bottom Action Area",
+          "rect": {
+            "x": 20,
+            "y": 803.5,
+            "width": 350,
+            "height": 72
+          },
+          "targetIndex": 51,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1245",
+      "index": 50,
+      "title": "第 8 题：恢复速度评估 (风格统一版)",
+      "image": "第-8-题：恢复速度评估-(风格统一版).png",
+      "width": 390,
+      "height": 958.6600341796875,
+      "links": [
+        {
+          "name": "Button - Previous Step (Inactive visual style)",
+          "rect": {
+            "x": 24,
+            "y": 904.16015625,
+            "width": 115.4000015258789,
+            "height": 40
+          },
+          "targetIndex": 48,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Next Step (Active visual style as primary action)",
+          "rect": {
+            "x": 139.39990234375,
+            "y": 899.16015625,
+            "width": 226.60000610351562,
+            "height": 50
+          },
+          "targetIndex": 52,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2485",
+      "index": 51,
+      "title": "16.动作学习-面拉",
+      "image": "16.动作学习-面拉.png",
+      "width": 390,
+      "height": 1302,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 14,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 49,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 1147,
+            "width": 350,
+            "height": 59
+          },
+          "targetIndex": 53,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1305",
+      "index": 52,
+      "title": "第 9 题：身体情况",
+      "image": "第-9-题：身体情况.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Button - Previous Step (Inactive visual style)",
+          "rect": {
+            "x": 24,
+            "y": 789,
+            "width": 115.4000015258789,
+            "height": 40
+          },
+          "targetIndex": 50,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button - Next Step (Active visual style as primary action)",
+          "rect": {
+            "x": 139.39990234375,
+            "y": 784,
+            "width": 226.60000610351562,
+            "height": 50
+          },
+          "targetIndex": 54,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2591",
+      "index": 53,
+      "title": "17.实时纠正-面拉",
+      "image": "17.实时纠正-面拉.png",
+      "width": 390,
+      "height": 884,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 150,
+            "y": 796,
+            "width": 216,
+            "height": 56
+          },
+          "targetIndex": 56,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 14,
+            "width": 32,
+            "height": 32
+          },
+          "targetIndex": 51,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1382",
+      "index": 54,
+      "title": "第 10 题：功能偏好",
+      "image": "第-10-题：功能偏好.png",
+      "width": 390,
+      "height": 1079,
+      "links": [
+        {
+          "name": "BottomNavBar as Confirmation Button Shell",
+          "rect": {
+            "x": 0,
+            "y": 943,
+            "width": 390,
+            "height": 136
+          },
+          "targetIndex": 57,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "109:34",
+      "index": 55,
+      "title": "Fixed Bottom Actions (Transactional / End of flow)",
+      "image": "fixed-bottom-actions-(transactional-end-of-flow).png",
+      "width": 390,
+      "height": 85,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 158,
+            "y": 17,
+            "width": 212,
+            "height": 52
+          },
+          "targetIndex": 60,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2769",
+      "index": 56,
+      "title": "18.本组反馈-面拉",
+      "image": "18.本组反馈-面拉.png",
+      "width": 390,
+      "height": 964,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 13,
+            "width": 30,
+            "height": 30
+          },
+          "targetIndex": 53,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 873,
+            "width": 350,
+            "height": 56
+          },
+          "targetIndex": 58,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1480",
+      "index": 57,
+      "title": "AI 分析中页",
+      "image": "ai-分析中页.png",
+      "width": 390,
+      "height": 1082,
+      "links": [
+        {
+          "name": "Container",
+          "rect": {
+            "x": 20,
+            "y": 1002,
+            "width": 350,
+            "height": 80
+          },
+          "targetIndex": 59,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2947",
+      "index": 58,
+      "title": "19.今日训练总结",
+      "image": "19.今日训练总结.png",
+      "width": 390,
+      "height": 1124,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 158,
+            "y": 1052,
+            "width": 212,
+            "height": 52
+          },
+          "targetIndex": 60,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:1572",
+      "index": 59,
+      "title": "AI 推荐结果页",
+      "image": "ai-推荐结果页.png",
+      "width": 390,
+      "height": 1424,
+      "links": [
+        {
+          "name": "Button - Secondary Action",
+          "rect": {
+            "x": 20,
+            "y": 1248,
+            "width": 350,
+            "height": 60
+          },
+          "targetIndex": 22,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2862",
+      "index": 60,
+      "title": "20.计划评估与调整",
+      "image": "20.计划评估与调整.png",
+      "width": 390,
+      "height": 1032,
+      "links": [
+        {
+          "name": "Button",
+          "rect": {
+            "x": 20,
+            "y": 971,
+            "width": 168,
+            "height": 42
+          },
+          "targetIndex": 13,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        },
+        {
+          "name": "Button",
+          "rect": {
+            "x": 204,
+            "y": 971,
+            "width": 166,
+            "height": 42
+          },
+          "targetIndex": 22,
+          "trigger": "ON_CLICK",
+          "navigationType": "NAVIGATE"
+        }
+      ]
+    }
+  ]
+}
