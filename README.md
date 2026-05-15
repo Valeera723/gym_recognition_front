@@ -49,3 +49,9 @@ The frontend is prepared for a Python YOLOv11 backend with these endpoints:
 - `POST /api/correction/analyze-video`
 
 Set `VITE_AIFIT_API_BASE` when the backend runs on a separate host or port.
+
+## Team Workflow
+
+- Team contribution guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
+- Frontend/backend API contract: [docs/api-contract.md](./docs/api-contract.md)
+- Pull requests should use the template in `.github/pull_request_template.md`.
